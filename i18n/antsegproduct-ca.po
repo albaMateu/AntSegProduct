@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AntSegProduct Anterior y siguiente\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-03 08:39+0000\n"
+"PO-Revision-Date: 2022-05-03 08:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: antsegproduct"
+
+#. Author of the plugin
+msgid "Alba Mateu"
+msgstr ""
+
+#. Name of the plugin
+msgid "AntSegProduct Anterior y siguiente"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://almape.dev"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Muestra enlace con imagen y titulo del producto anterior y siguiente en la "
+"ficha del producto."
+msgstr "Mostra enllaç amb imatge i titol del producte anterior i següent en la fitxa del producte"
+
+#: AntSegProduct.php:118
+msgid "PREVIO"
+msgstr "PREVI"
+
+#: AntSegProduct.php:148
+msgid "SIGUIENTE"
+msgstr "SEGÜENT"

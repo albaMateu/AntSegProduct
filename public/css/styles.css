@@ -1,0 +1,134 @@
+/*  botons anterior i seguent producte en fitxa de producte */
+.d-md-block {
+    display: block !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.cta-bar-container.position-left .hide-cta .text-block,
+.cta-bar-container.position-left .hide-cta .text-block p,
+.cta-bar-container.position-right .hide-cta .text-block,
+.cta-bar-container.position-right .hide-cta .text-block p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-block p.m-0 {
+    margin-bottom: 1em !important;
+    font-size: 16px !important;
+}
+
+.hide-cta b.pr-1,
+.hide-cta b.px-1 {
+    font-size: 16px !important;
+}
+
+.pr-1,
+.px-1 {
+    padding-right: .25rem !important;
+}
+
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.cta-bar-container .hide-cta {
+    position: absolute;
+    display: none;
+    height: 27px;
+    width: auto;
+    max-width: auto;
+    border-radius: 2px 2px 0 0;
+    cursor: pointer;
+}
+
+.cta-bar-container.position-left .hide-cta,
+.cta-bar-container.position-right .hide-cta {
+    min-width: auto;
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    transition: opacity .15s linear;
+    background: #fff;
+    opacity: .7;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cta-bar-container.position-left .hide-cta {
+    right: 0;
+    top: 0;
+    transform: translate(20px, -50%) rotate(270deg);
+    transform-origin: right;
+}
+
+.cta-bar-container.position-right .hide-cta {
+    left: 0;
+    transform: translate(-20px, -50%) rotate(270deg);
+    transform-origin: left;
+}
+
+.cta-bar-container .cta-bar {
+    max-width: 100%;
+    margin: 20px 50px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cta-bar-container.position-left .cta-bar,
+.cta-bar-container.position-right .cta-bar {
+    margin: 10px;
+}
+
+.cta-bar-container {
+    display: none;
+    position: fixed;
+    height: 142px;
+    width: 100%;
+    max-width: 1360px;
+    border-radius: 0 2px 2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 7px 16px 0 rgba(0, 0, 0, .09);
+    margin: auto;
+}
+
+.cta-bar-container.position-left,
+.cta-bar-container.position-right {
+    top: 50%;
+    height: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    transform: translateY(-50%);
+    z-index: 4;
+}
+
+.cta-bar-container.position-left {
+    left: -200px;
+    transition: left .3s linear;
+}
+
+.cta-bar-container.position-right {
+    right: -200px;
+    transition: right .3s linear;
+}
+
+.cta-bar-container.position-left:hover {
+    left: 0;
+}
+
+.cta-bar-container.position-right:hover {
+    right: 0;
+}
+
+/* Mobils i tablet menuda*/
+
+@media screen and (max-width: 768px) {
+    .d-none {
+        display: none !important;
+    }
+}
